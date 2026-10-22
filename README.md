@@ -6,6 +6,8 @@ Leave `netsnitch` running. It samples outbound connections, reverse-DNS resolves
 
 ## Install
 
+Requirements, a virtualenv, platform notes, and troubleshooting are in [INSTALL.md](INSTALL.md).
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate

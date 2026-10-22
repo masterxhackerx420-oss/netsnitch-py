@@ -3,7 +3,7 @@ name = "netsnitch"
 version = "0.1.0"
 description = "See which processes phone home: ranked outbound connections by domain."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
     "psutil>=5.9",
     "rich>=13",
