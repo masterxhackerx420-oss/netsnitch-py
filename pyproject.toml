@@ -1,0 +1,26 @@
+[project]
+name = "netsnitch"
+version = "0.1.0"
+description = "See which processes phone home: ranked outbound connections by domain."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "psutil>=5.9",
+    "rich>=13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+netsnitch = "netsnitch.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["netsnitch*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
