@@ -1,3 +1,5 @@
+![netsnitch banner](docs/netsnitch-banner.jpg)
+
 # netsnitch
 
 See which processes phone home: a ranked table of outbound connections by domain.
