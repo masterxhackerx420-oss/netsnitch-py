@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://hits.sh/github.com/masterxhackerx420-oss/netsnitch-py/">
+    <img src="https://hits.sh/github.com/masterxhackerx420-oss/netsnitch-py.svg?style=for-the-badge&label=Visitors&color=8b5cf6&logo=eye" alt="Visitors" />
+  </a>
+</p>
+
 ![netsnitch banner](docs/netsnitch-banner.jpg)
 
 # netsnitch
@@ -42,15 +48,15 @@ A 10 second run (`netsnitch --duration 10`). `python3` was holding a few HTTPS s
 Sampling outbound connections for 10s every 1s.
 Note: some processes were hidden. Re-run with sudo to see other users' processes.
                 Outbound connections (10 samples)                 
-┏━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━┓
+┏━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━┓
 ┃ # ┃ Process ┃ Domain                                    ┃ Hits ┃
-┡━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━┩
+┡━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━┩
 │ 1 │ node    │ 172.30.0.1                                │   10 │
 │ 2 │ node    │ ec2-52-21-130-202.compute-1.amazonaws.com │   10 │
 │ 3 │ python3 │ 104.16.123.96                             │   10 │
 │ 4 │ python3 │ 172.66.147.243                            │   10 │
 │ 5 │ python3 │ one.one.one.one                           │   10 │
-└───┴─────────┴───────────────────────────────────────────┴──────┘
+└───┴─────────┴───────────────────────────────────────┴──────┘
 Hits = samples in which that process was seen talking to that domain.
 ```
 
